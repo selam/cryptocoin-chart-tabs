@@ -1,0 +1,14 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "content_security_policy": "default-src 'self'; frame-src http://www.cryptocoincharts.info; style-src 'self' 'unsafe-inline'",
+   "description": "Replace your new tab to cryptocoin prices.",
+   
+   "manifest_version": 2,
+   "name": "cryptocoins",
+   "offline_enabled": true,
+   "permissions": ["tabs"],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
+}
